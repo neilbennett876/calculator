@@ -32,21 +32,21 @@ function Keypad() {
       <div>
         <button
           onClick={() => {
-            setNumber("4");
+            setNumber(number + "4");
           }}
         >
           4
         </button>
         <button
           onClick={() => {
-            setNumber("5");
+            setNumber(number + "5");
           }}
         >
           5
         </button>
         <button
           onClick={() => {
-            setNumber("6");
+            setNumber(number + "6");
           }}
         >
           6
@@ -55,21 +55,21 @@ function Keypad() {
       <div>
         <button
           onClick={() => {
-            setNumber("7");
+            setNumber(number + "7");
           }}
         >
           7
         </button>
         <button
           onClick={() => {
-            setNumber("8");
+            setNumber(number + "8");
           }}
         >
           8
         </button>
         <button
           onClick={() => {
-            setNumber("9");
+            setNumber(number + "9");
           }}
         >
           9
